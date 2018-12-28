@@ -64,7 +64,7 @@ func TestIsNull(t *testing.T) {
 		ui32t  uint32  = math.MaxUint32
 		ui16t  uint16  = math.MaxUint16
 		ui8t   uint8   = math.MaxUint8
-		st     string  = ""
+		st     string
 		pf64t  *float64
 		pf32t  *float32
 		pi64t  *int64
@@ -118,17 +118,17 @@ func TestIsNull(t *testing.T) {
 	}
 
 	var (
-		f64f  float64 = 0
-		f32f  float32 = 0
-		i64f  int64   = 0
-		i32f  int32   = 0
-		i16f  int16   = 0
-		i8f   int8    = 0
-		ui64f uint64  = 0
-		ui32f uint32  = 0
-		ui16f uint16  = 0
-		ui8f  uint8   = 0
-		sf    string  = "Not Null"
+		f64f  float64
+		f32f  float32
+		i64f  int64
+		i32f  int32
+		i16f  int16
+		i8f   int8
+		ui64f uint64
+		ui32f uint32
+		ui16f uint16
+		ui8f  uint8
+		sf    string = "Not Null"
 	)
 	testFalses := []interface{}{
 		f64f,
