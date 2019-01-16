@@ -1,4 +1,4 @@
-pkg/sentinel
+go-sentinel
 ============
 
 [![GoDoc](https://godoc.org/github.com/weathersource/go-sentinel?status.svg)](https://godoc.org/github.com/weathersource/go-sentinel)
